@@ -1,0 +1,106 @@
+.dashboard-cnt{
+    display: flex;
+    flex-direction: column;
+}
+
+/* ----------------Drawer cnt-------------- */
+/* .drawer-cnt  {
+  
+} */
+.drawer-main-cnt{
+  /* margin-top: 100px; */
+  z-index: -100;
+}
+.MuiPaper-root{
+  margin-top: 77px;
+}
+.drawer-box-cnt{
+  width: 250px;
+  /* margin-top: 100px; */
+  
+}
+.drawer-items-cnt{
+  display: flex;
+  gap: 25px;
+  width: calc(100% - 10px);
+  align-items: center;
+  padding-left: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  cursor: pointer;
+}
+.drawer-items-cnt:hover{
+  background-color: rgb(255, 182, 45);
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  /* border-buttom-right-radius: 20px; */
+}
+.active-cnt{
+  background-color: rgb(255, 182, 45);
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+/* .drawer-icon-cnt{
+display: flex;
+flex-direction: column;
+width: 20%;
+margin-top: 77px;
+} */
+.MuiBackdrop-root{
+background-color:rgba(0, 0, 0, 0) !important;
+}
+
+.dashboard-main-cnt{
+  width: 100%;
+  min-height: calc(100vh - 100px);
+  display: flex;
+
+}
+.dashboard-outlet-cnt{
+  width: calc(100% - 50px);
+  /* background-color: aqua; */
+  margin-top: 77px;
+  min-height: calc(100vh - 77px);
+}
+.drawer-icon-cnt{
+    width: 50px;
+    margin-top: 77px;
+    min-height: calc(100vh - 77px);
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* gap: 25px; */
+    /* position: fixed; */
+    /* background-color: blue; */
+}
+
+.drawer-icon{
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-bottom: 10px;
+}
+.active{
+  background-color: rgb(255, 182, 45);
+  border-radius: 50%;
+    // height: 24px;
+}
+.drawer-icon:hover{
+  background-color: rgb(255, 182, 45);
+  border-radius: 50%;
+    // height: 24px;
+}
+.drawer-icon1{
+    padding-bottom: 20px;
+}
+/* -------------------------Drawer cnt-------------------------------------------- */
+
+.dashboard-main-cnt{
+    display: flex !important;
+    flex-direction: row !important;
+}
+.icon{
+  width: 65px !important;
+ 
+}

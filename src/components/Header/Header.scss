@@ -1,0 +1,121 @@
+.header-wrapper-cnt{
+    width: calc(100% - 30px);
+    /* border: 1px solid red; */
+    height: 60px;
+    position: fixed;
+    padding: 10px 15px 5px 15px;
+    /* box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2); */
+    border-bottom: 1px solid rgb(186, 185, 185);
+    z-index: 5;
+    background-color: white;
+}
+.header-main-cnt{
+    display: flex;
+    width: 100%;
+}
+.header-logo-cnt{
+  width: 15%;
+  /* border-right: 1px solid red; */
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  gap: 20px;
+  
+  
+}
+.header-logo-img-cnt{
+    display: flex;
+    align-items: center;
+    padding-right: 25px;
+}
+.header-logo-img-cnt span{
+    font-size: 25px;
+    font-weight: 450;
+}
+.header-input-cnt{
+ width: 65%;
+ /* border-right: 1px solid red; */
+ display: flex;
+ align-items: center;
+ padding-left: 50px;
+}
+.header-input-box-cnt{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 1px 1px 0 rgba(65, 69, 73, .3), 0 1px 3px 1px rgba(65, 69, 73, .15);
+    border: 1px solid transparent;
+    border-radius: 8px;
+    padding-left: 15px;
+}
+.header-input-box-cnt input{
+    width: 90%;
+    height: 40px;
+    font-size: 15px;
+    font-weight: 400;
+    padding-left: 15px;
+    outline: none;
+    border: none;
+}
+.header-setting-cnt{
+  width: 20%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-setting-item-cnt{
+    display: flex;
+    gap: 20px;
+}
+.header-profile-cnt{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.avter-item{
+    display: flex !important;
+    justify-content: center !important;
+}
+
+// -------------------------------------------------------------
+
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+    
+    .header-main-cnt {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .header-logo-cnt {
+        width: 17%;
+        /* border-right: 1px solid red; */
+        display: flex;
+        align-items: center;
+        /* justify-content: space-between; */
+        gap: 20px;
+    }
+    .header-input-cnt {
+        width: 10%;
+    }
+    .header-setting-cnt {
+        width: 61%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    .header-input-cnt{
+        display: none;
+    }
+    .header-setting-item-cnt{
+        display: none;
+    }
+    .MuiSvgIcon-root .MuiSvgIcon-fontSizeMedium{
+        display: none;
+    }
+  }
+  

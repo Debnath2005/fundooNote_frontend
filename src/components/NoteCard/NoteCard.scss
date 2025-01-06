@@ -1,0 +1,147 @@
+.card-wrapper-cnt{
+    /* width: 100%;
+    height: 100vh; */
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+}
+.card-wrapper-cnt :hover{
+  
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+  transform: translateY(-3px); 
+}
+
+
+.card-main-cnt{
+   min-width: 250px;
+   min-height: 200px;
+   border: 1px solid rgb(192, 189, 189);
+   border-radius: 15px;
+   /* box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.8); */
+   padding: 5px;
+   padding-bottom: 10px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+
+   &:hover {
+    .card-button-cnt{
+        visibility: visible;
+    }
+   }
+}
+// .card-main-cnt{
+//     /* box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.8); */
+//     /* background-color: inherit; */
+// }
+// .card-wrapper-cnt:hover .card-main-cnt {
+//     /* Remove child hover propagation */
+    
+//   }
+.card-button-cnt{
+    display: flex;
+    justify-content: space-between;
+    visibility: hidden;
+    cursor: pointer;
+}
+
+//  .card-button-cnt :hover{
+//     background-color: rgb(164, 166, 166);
+// }
+
+.model-addnote-cnt{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgba(255, 255, 255, 0.5);
+}
+
+/* ------------color--------------------- */
+
+.color-palate-cnt {
+    display: flex;
+    flex-direction: row;
+   //  flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px 12px;
+    border-radius: 8px;
+}
+.color-btn {
+    width: 30px;
+    height: 30px;
+    border-radius: 200px;
+    margin: 8px 0px;
+   cursor: pointer;
+}
+.col1 {
+    @extend .color-btn;
+    background-color: #FFFFFF; 
+    border: 1px solid #e7e7bc;
+}
+.col2 {
+    @extend .color-btn;
+    background-color: #FAAFA8;
+    border: 1px solid #FAAFA8; 
+ }
+ .col3 {
+    @extend .color-btn;
+    background-color: #F39F76;
+    border: 1px solid #F39F76; 
+ }
+ .col4 {
+    @extend .color-btn;
+    background-color: #FFF8B8;
+    border: 1px solid #FFF8B8; 
+ }
+ .col5 {
+    @extend .color-btn;
+    background-color: #E2F6D3;
+    border: 1px solid #E2F6D3; 
+ }
+ .col6 {
+    @extend .color-btn;
+    background-color: #B4DDD3;
+    border: 1px solid #B4DDD3; 
+ }
+ .col7 {
+    @extend .color-btn;
+    background-color: #D4E4ED;
+    border: 1px solid #D4E4ED; 
+ }
+ .col8 {
+    @extend .color-btn;
+    background-color: #AECCDC;
+    border: 1px solid #AECCDC; 
+ }
+ .col9 {
+    @extend .color-btn;
+    background-color: #D3BFDB;
+    border: 1px solid #D3BFDB; 
+ }
+ .col10 {
+    @extend .color-btn;
+    background-color: #F6E2DD;
+    border: 1px solid #F6E2DD; 
+ }
+ .col11 {
+    @extend .color-btn;
+    background-color: #E9E3D4;
+    border: 1px solid #E9E3D4; 
+ }
+ .col12 {
+    @extend .color-btn;
+    background-color: #EFEFF1;
+    border: 1px solid #EFEFF1; 
+ }
+ .horizontal-menu .MuiMenu-list {
+    display: flex; /* Make menu items appear in a row */
+    flex-direction: row; /* Align them horizontally */
+  }
+  
+  .horizontal-menu .MuiMenuItem-root {
+    min-width: auto; /* Allow menu items to shrink and fit horizontally */
+    padding: 8px 16px; /* Add padding around the items */
+  }
